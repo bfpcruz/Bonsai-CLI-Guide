@@ -8,7 +8,7 @@ For questions/discussion visit the google groups post
 
 (Tutorial updated to Bonsai v2.6.1)
 ___
-
+&nbsp;
 
 - [Bonsai CLI](#bonsai-cli)
   - [Installation and basic use](#installation-and-basic-use)
@@ -21,7 +21,7 @@ ___
   - [Other available flags](#other-available-flags)
 
 
-
+&nbsp;
 ## Installation and basic use
 Bonsai CLI is available after the default Bonsai installation. Before starting, make sure you can able to call ```Bonsai``` from your command line:
 
@@ -37,8 +37,7 @@ Alternatively, by adding ```pathToBonsaiExe``` to your System Path, simply:
 This command will open the default Bonsai editor.
 
 ___
-
-
+&nbsp;
 ## Opening a Workflow
 
 To open an existing workflow, ```myWorkflow.bonsai```, use the sintax:
@@ -54,7 +53,7 @@ To open an existing workflow, ```myWorkflow.bonsai```, use the sintax:
 > Bonsai "C:\Users\Utilizador\Desktop\Example\myCameraWorkflow.bonsai"
 ```
 ___
-
+&nbsp;
 ## Starting a Workflow
 
 Adding additional flags changes the behavior of the output from Bonsai CLI. To launch and start and workflow from the command line we add the ```--start``` flag to the previous command:
@@ -69,7 +68,7 @@ Adding additional flags changes the behavior of the output from Bonsai CLI. To l
 ```
 
 ___
-
+&nbsp;
 ## Starting a Workflow without the editor
 
 
@@ -96,7 +95,7 @@ It is worth noting that only assigned visualizers will be available on this list
 > Bonsai myCameraWorkflow.bonsai --no-editor
 ```
 ___
-
+&nbsp;
 ## Passing parameter values to workflows
 
 
@@ -115,9 +114,7 @@ One of the most useful features of the CLI is the ability to, using the same wor
 
 ![Externalize Property Example 2](extern_prop_example_2.png)
 
-
 ##### Passing values from the command line
-
 To pass values from the command line we use the syntax :
 
 
@@ -143,9 +140,8 @@ It is worth noting that the same workflow file can be called/run in parallel wit
 > bonsai myCameraWorkflow.bonsai --no-editor -p:"myThr"="100" -p:"myMaxVal"="200" -p:"myNestedNode.howToFlip"="Horizontal"
 ```
 ___
-
+&nbsp;
 ## Specifying layout files
-
 As of version 2.6.1, it is possible to specify which layout file to run the workflow with when using the ```--no-editor mode```. This is especially useful when the same workflow is meant to be run several times in parallel (e.g. multiple identical behavior rigs).
 
 The general syntax is:
@@ -175,6 +171,7 @@ This will create a layout file with the same name as the workflow which can then
 ```
 
 ___
+&nbsp;
 ## Examples on how to interface with Bonsai CLI from other programming languages
 
 - Python
@@ -185,6 +182,7 @@ ___
   - https://groups.google.com/g/bonsai-users/c/zXS_1MF8nxM/m/DnkJ5UxkAwAJ
 
 ___
+&nbsp;
 
 ## Other available flags
 Additional flags are available and can be used similarly to the ones introduced before:
