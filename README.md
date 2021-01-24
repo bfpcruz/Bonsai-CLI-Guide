@@ -6,7 +6,7 @@
   - [Passing parameter values to workflows](#passing-parameter-values-to-workflows)
   - [Specifying layout files](#specifying-layout-files)
   - [Examples on how to interface with Bonsai CLI from other programming languages](#examples-on-how-to-interface-with-bonsai-cli-from-other-programming-languages)
-  - [Other available flags (TODO)](#other-available-flags-todo)
+  - [Other available flags](#other-available-flags)
 
 
 # Bonsai CLI
@@ -187,7 +187,7 @@ ___
 
 ___
 
-## Other available flags (TODO)
+## Other available flags
 Additional flags are available and can be used similarly to the ones introduced before:
 
 ```cmd
