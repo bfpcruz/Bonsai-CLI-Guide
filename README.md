@@ -15,11 +15,21 @@ Bonsai CLI (Command Line Interface) allows workflows to be launched from the OS 
 
 In the folder of this tutorial, you will be able find an example workflow you should be able to use to replicate the code examples in your setup (myCameraWorkflow.bonsai).
 
-More info at [Bonsai Users Google Group](https://groups.google.com/g/bonsai-users)
+For questions/discussion visit the google groups post
 
 (Tutorial updated to Bonsai v2.6.1)
 ___
 
+
+- [Bonsai CLI](#bonsai-cli)
+  - [Installation and basic use](#installation-and-basic-use)
+  - [Opening a Workflow](#opening-a-workflow)
+  - [Starting a Workflow](#starting-a-workflow)
+  - [Starting a Workflow without the editor](#starting-a-workflow-without-the-editor)
+  - [Passing parameter values to workflows](#passing-parameter-values-to-workflows)
+  - [Specifying layout files](#specifying-layout-files)
+  - [Examples on how to interface with Bonsai CLI from other programming languages](#examples-on-how-to-interface-with-bonsai-cli-from-other-programming-languages)
+  - [Other available flags](#other-available-flags)
 
 
 
@@ -48,7 +58,7 @@ To open an existing workflow, ```myWorkflow.bonsai```, use the sintax:
 > Bonsai myWorkflow.bonsai
 ```
 
-#####Example:
+##### Example:
 
 ```cmd
 > Bonsai myCameraWorkflow.bonsai
@@ -64,7 +74,7 @@ Adding additional flags changes the behavior of the output from Bonsai CLI. To l
 > Bonsai myWorkflow.bonsai --start
 ```
 
-#####Example:
+##### Example:
 ```cmd
 > Bonsai myCameraWorkflow.bonsai --start
 ```
@@ -89,10 +99,10 @@ It is worth noting that only assigned visualizers will be available on this list
 - Right click on top of the node of interest;
 - "Show Visualizer" ➡ Select a visualizer other than "None"
 
-![Select visualizer](select_visualizer.png)
+![Select visualizer](Select_visualizer.png)
 
 
-#####Example:
+##### Example:
 ```cmd
 > Bonsai myCameraWorkflow.bonsai --no-editor
 ```
@@ -103,7 +113,7 @@ ___
 
 One of the most useful features of the CLI is the ability to, using the same workflow, passing different values to different nodes before running it. Only "externalized properties" can be set from the command line.
 
-#####To externalize a property:
+##### To externalize a property:
 - Open the workflow in editor mode;
 - Right click on top of the node of interest;
 - "Externalize Property" ➡ Select the property of interest
@@ -117,7 +127,7 @@ One of the most useful features of the CLI is the ability to, using the same wor
 ![Externalize Property Example 2](extern_prop_example_2.png)
 
 
-#####Passing values from the command line
+##### Passing values from the command line
 
 To pass values from the command line we use the syntax :
 
@@ -129,7 +139,7 @@ You can set properties in nested workflows by using the (dot) notation: (e.g. ``
 
 It is worth noting that the same workflow file can be called/run in parallel with different parameters, allowing for easy batch-processing pipelines!
 
-#####Example:
+##### Example:
 ```cmd
 > :: set a single property
 > bonsai myCameraWorkflow.bonsai --start -p:"myThr"="100"
@@ -164,7 +174,7 @@ This will create a layout file with the same name as the workflow which can then
 
 
 
-#####Example:
+##### Example:
 ```cmd
 
 > :: run the workflow myCameraWorkflow.bonsai with myCameraWorkflowLayout2.bonsai.layout
