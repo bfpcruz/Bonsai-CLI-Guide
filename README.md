@@ -1,14 +1,3 @@
-- [Bonsai CLI](#bonsai-cli)
-  - [Installation and basic use](#installation-and-basic-use)
-  - [Opening a Workflow](#opening-a-workflow)
-  - [Starting a Workflow](#starting-a-workflow)
-  - [Starting a Workflow without the editor](#starting-a-workflow-without-the-editor)
-  - [Passing parameter values to workflows](#passing-parameter-values-to-workflows)
-  - [Specifying layout files](#specifying-layout-files)
-  - [Examples on how to interface with Bonsai CLI from other programming languages](#examples-on-how-to-interface-with-bonsai-cli-from-other-programming-languages)
-  - [Other available flags](#other-available-flags)
-
-
 # Bonsai CLI
 
 Bonsai CLI (Command Line Interface) allows workflows to be launched from the OS command-line tool. In addition, to open workflows with the default graphic interface, the CLI opens the possibility to use other advanced features, that will be covered ahead, such as "no-editor" mode, initialization of variable's values, and specifying layouts.
