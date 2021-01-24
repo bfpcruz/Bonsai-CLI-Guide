@@ -1,14 +1,17 @@
 # Bonsai CLI
 
-Bonsai CLI (Command Line Interface) allows workflows to be launched from the OS command-line tool. In addition, to open workflows with the default graphic interface, the CLI opens the possibility to use other advanced features, that will be covered ahead, such as "no-editor" mode, initialization of variable's values, and specifying layouts.
+Bonsai CLI (Command-Line Interface) allows workflows to be launched from the OS command-line tool. In addition, to open workflows with the default graphic interface, the CLI opens the possibility to use other advanced features, that will be covered ahead, such as "no-editor" mode, initialization of variable's values, and specifying layouts.
 
 In the folder of this tutorial, you will be able find an example workflow you should be able to use to replicate the code examples in your setup (myCameraWorkflow.bonsai).
 
 For questions/discussion visit the google groups post
 
 (Tutorial updated to Bonsai v2.6.1)
+
+
 ___
 &nbsp;
+## TOC
 
 - [Bonsai CLI](#bonsai-cli)
   - [Installation and basic use](#installation-and-basic-use)
@@ -23,7 +26,7 @@ ___
 
 &nbsp;
 ## Installation and basic use
-Bonsai CLI is available after the default Bonsai installation. Before starting, make sure you can able to call ```Bonsai``` from your command line:
+Bonsai CLI is available after the default [Bonsai installation](https://bonsai-rx.org/) . Before starting, make sure you can able to call ```Bonsai``` from your command line:
 
 ```cmd
 > pathToBonsaiExe\Bonsai.exe
